@@ -1,7 +1,7 @@
 # English - Marathi Language Translation 
 
 * Build EN-MR and MR-EN language translation models then merged them into a bidirectional translation model by extracting the encoder and decoder components from each model and creating a new EncoderDecoderModel using the HuggingFace transformers library.
-* Leveraging Huggingface's pretrained multilingual translation models, I developed a English-to-Marathi and Marathi to English translation model by fine-tuning hyperparameters and utilizing AutoModelForSeq2seqLM, AutoTokenizer, AutoConfig, Se
+* Leveraging Huggingface's pretrained multilingual translation models, I developed a English-to-Marathi and Marathi to English translation model by fine-tuning hyperparameters and utilizing AutoModelForSeq2seqLM, AutoTokenizer, AutoConfig classes.
 * Compared three different models i.e.
     * [Mbart](https://huggingface.co/facebook/mbart-large-50)
     * [AI4Bharat](https://huggingface.co/ai4bharat/indic-bert)
